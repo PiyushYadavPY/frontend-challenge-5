@@ -82,7 +82,7 @@ label{
 .email input{
     width: 100%;
     border: 2px solid black;
-    padding: 10px;
+    padding: 15px;
     font-family: 'roboto-regular', sans-serif;
     font-weight: 400;
     border-radius: 5px;
@@ -176,7 +176,8 @@ input::placeholder{
         display: none;
     }
     #success-msg{
-        height: 16rem;
+        height: 100vh;
+        width: 100%;
     }
     #submit{
         width: 100%;
@@ -194,7 +195,9 @@ input::placeholder{
         display: none;
     }
     #success-msg{
-        height: 18.5rem;
+        height: 100vh;
+        width: 100%;
+       
     }
     #submit{
         width: 100%;
@@ -206,7 +209,6 @@ input::placeholder{
     .header{
         display: block;
         max-width: 100%;
-        margin: auto;
     }
     .container{
         background-color: #fff;
@@ -217,14 +219,37 @@ input::placeholder{
     .image img{
         display: none;
     }
+
     #success-msg{
-        height: 18.5rem;
+        height: 100vh;
+        width: 100%;
+        margin: 1.5rem;
+    }
+    .icon{
+        margin-top: 3.5rem;
+    }
+    #success-msg h1{
+            margin-top: 3.5rem;
+    }
+    #success-msg p{
+        margin-top: 1.5rem;
+    }
+    #dismiss{
+        margin-top: 10.5rem;
+        width: 80%;
+    }
+    .email{
+        margin-top: 1.5rem;
+    }
+    #errorMsg{
+        margin-top: 0.5rem;
     }
     #submit{
         width: 100%;
+        margin-top: 1.5rem;
+        font-size: 14px;
     }
   }
-  
 
   @media (max-width: 375px) {
     .header{
@@ -240,11 +265,36 @@ input::placeholder{
     .image img{
         display: none;
     }
+
     #success-msg{
-        height: 18.5rem;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        /* margin: 1.5rem; */
+    }
+    .icon{
+        margin-top: 3.5rem;
+    }
+    #success-msg h1{
+            margin-top: 3.5rem;
+    }
+    #success-msg p{
+        margin-top: 1.5rem;
+    }
+    #dismiss{
+        margin-top: 10.5rem;
+        width: 80%;
+    }
+    .email{
+        margin-top: 1.5rem;
+    }
+    #errorMsg{
+        margin-top: 0.5rem;
     }
     #submit{
         width: 100%;
+        margin-top: 1.5rem;
+        font-size: 14px;
     }
   }
   
